@@ -68,3 +68,5 @@ add product-i-started-Sun Dec 02 2018 22:26:12 GMT+0530 (India Standard Time)-41
 add product-i-finished-Sun Dec 02 2018 22:26:14 GMT+0530 (India Standard Time)-894
 add product-i-started-Sun Dec 02 2018 22:28:18 GMT+0530 (India Standard Time)-728
 add product-i-finished-Sun Dec 02 2018 22:28:19 GMT+0530 (India Standard Time)-343
+update product-i-started-Sun Dec 02 2018 23:06:55 GMT+0530 (India Standard Time)-255
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Sun Dec 02 2018 23:06:55 GMT+0530 (India Standard Time)-402
