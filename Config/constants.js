@@ -12,5 +12,12 @@ module.exports = {
         internal_server_error:500,
         bad_request:400,
         conflict_occured:409
-    }
+    },
+    
+    query:
+{
+    insertProduct:"insert into products (title,isbn,page_count,type,published_date,thumbnail_url,status,authors,categories,unit,special_price,original_price) values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)",
+    getId:'select max(id) as id from products'
 }
+}
+

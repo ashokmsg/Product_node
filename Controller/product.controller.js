@@ -34,25 +34,29 @@ exports.addProduct = async (req, res) => {
     let elastic = getElasticConnection();
     try {
         logWriter(`add product-i-started`);
-        var f=req.body.id;
-        let result=await elastic.index
-                ({
-            "index":"product_details",
+        let pg_result=await client.query(constants.query.insertProduct,[req.body.title,req.body.isbn,req.body.page_count,req.body.type,req.body.published_date,req.body.thumbnail_url,req.body.status,req.body.authors,req.body.categories,req.body.unit,req.body.special_price,req.body.original_price]);
+        var result_id = await client.query(constants.query.getId);
+        var product_id=result_id.rows[0].id+1;
+        let elastic_result=await elastic.index
+        ({
+            "index":"products",
             "type":"_doc",
             "body":
             {
-          "author" : req.body.autor,
+          "id":product_id,
+          "author" : req.body.authors,
           "isbn" : req.body.isbn,
           "title" : req.body.title,
           "unit" : req.body.unit,
-          "product_type" : req.body.product_type,
+          "type" : req.body.product_type,
           "special_price" : req.body.special_price,
           "orginal_price" : req.body.original_price,
-          "category" : req.body.category,
+          "category" : req.body.categories,
           "published_date":req.body.published_date,
           "page_count":req.body.page_count,
           "status":req.body.status,
-          "thumbnail_url":req.body.thumbnail_url
+          "thumbnail_url":req.body.thumbnail_url,
+          "published_date":req.body.published_date
             }
         });
         res.end();
