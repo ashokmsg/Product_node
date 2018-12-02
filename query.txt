@@ -1,0 +1,26 @@
+create table rating_and_review(
+    review_id  SERIAL,
+    user_id INTEGER,
+    product_id INTEGER,
+    rating NUMERIC DEFAULT 0 CONSTRAINT CHECK_RATING CHECK((rating<=5) and (rating>0)),
+    review_title VARCHAR(100),
+    review_description VARCHAR(400),
+    likes INTEGER DEFAULT 0 ,
+    dislikes INTEGER DEFAULT 0,
+    helpful INTEGER DEFAULT 0,
+    abuse INTEGER DEFAULT 0 ,
+    created_on DATE default now(),
+    updated_on DATE default now()
+    );
+
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (1,1,2.3,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (1,2,4,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (1,3,2,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (2,1,5,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (3,1,1,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (4,1,0,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (1,5,3,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (1,1,4.3,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (6,2,1.3,'good','product was good');
+    insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (3,2,4.8,'good','product was good');
+    
