@@ -1,4 +1,4 @@
-const { getDbConnection } = require("../Utils/dbConnections");
+const { getDbConnection , getElasticConnection } = require("../Utils/dbConnections");
 const { handleError ,logWriter} = require("../Utils/utilMethods");
 const constants = require("../Config/constants");
 const validations = require("../Utils/validations");
@@ -9,6 +9,25 @@ const { generateToken } = require("../Services/passport.service");
 const fetch = require("node-fetch");
 
 
+exports.sampleSearch = async (req, res) => {
+    let client = getDbConnection();
+    let elastic = getElasticConnection();
+    try {
+        logWriter(`add product-i-started`);
+        let result = await elastic.search({
+            "index": "kibana_sample_data_flights",
+        });
+       res.send(result);
+        
+        logWriter(`add product-i-finished`);
+    } catch (error) {
+        logWriter(`add product-e-${error.toString()}`);
+        console.log(error.toString());
+        handleError(constants.response_code.internal_server_error, res, constants.error_messages.internal_server_error);
+    } finally {
+        client.end();
+    }
+}
 
 exports.addProduct = async (req, res) => {
     let client = getDbConnection();
@@ -55,3 +74,5 @@ exports.deleteProduct = async (req, res) => {
         client.end();
     }
 }
+
+

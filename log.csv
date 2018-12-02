@@ -1,2 +1,6 @@
 user history-i-started-Sun Dec 02 2018 15:03:17 GMT+0530 (India Standard Time)-932
 user history-i-finished-Sun Dec 02 2018 15:03:18 GMT+0530 (India Standard Time)-422
+add product-i-started-Sun Dec 02 2018 15:27:01 GMT+0530 (India Standard Time)-434
+add product-e-[index_not_found_exception] no such index, with { resource.type="index_or_alias" & resource.id="some_index" & index_uuid="_na_" & index="some_index" } :: {"path":"/some_index/doc/_search","query":{},"body":"{\"size\":0,\"aggs\":{\"max_date\":{\"max\":{\"field\":\"some_field_date\"}}}}","statusCode":404,"response":"{\"error\":{\"root_cause\":[{\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"some_index\",\"index_uuid\":\"_na_\",\"index\":\"some_index\"}],\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"some_index\",\"index_uuid\":\"_na_\",\"index\":\"some_index\"},\"status\":404}"}-Sun Dec 02 2018 15:27:01 GMT+0530 (India Standard Time)-685
+add product-i-started-Sun Dec 02 2018 15:28:30 GMT+0530 (India Standard Time)-388
+add product-i-finished-Sun Dec 02 2018 15:28:30 GMT+0530 (India Standard Time)-822

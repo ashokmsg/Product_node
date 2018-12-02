@@ -111,3 +111,4 @@ auth jwt login-e-TypeError: Cannot read property 'auth_query' of undefined-Thu N
 handle error-w-error: subquery must return only one column-Sat Nov 24 2018 17:18:24 GMT+0530 (India Standard Time)
  product history -i-started-Sat Nov 24 2018 17:18:58 GMT+0530 (India Standard Time)
  product history -i-finished-Sat Nov 24 2018 17:18:59 GMT+0530 (India Standard Time)
+handle error-w-undefined-Sun Dec 02 2018 15:27:01 GMT+0530 (India Standard Time)
