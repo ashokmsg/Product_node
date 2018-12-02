@@ -24,3 +24,36 @@ create table rating_and_review(
     insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (6,2,1.3,'good','product was good');
     insert into rating_and_review (user_id,product_id,rating,review_title,review_description) values (3,2,4.8,'good','product was good');
     
+
+
+
+create table product_details
+(
+product_id SERIAL  CONSTRAINT product_pk PRIMARY KEY ,
+title VARCHAR(100),
+isbn INTEGER NOT NULL,
+page_count INTEGER NOT NULL,
+product_type VARCHAR(200),
+published_date DATE,
+thumbnail_url VARCHAR(800),
+status VARCHAR(100),
+authors varchar[10],
+categories varchar[10],
+unit varchar(20),
+orginal_price  INTEGER,
+special_price  INTEGER,
+created_date DATE now(),
+updated_date DATE now(),
+is_delete bool
+);
+
+insert into product_details(title,isbn,page_count,thumbnail_url,authors,categories,price) 
+values (
+'tit',
+1884777686,
+362,
+'https://hhaa/abc.jpg',
+'{"Michael J. Barlotta","Jason R. Weiss"}',
+'{"PowerBuilder"}',
+857
+);

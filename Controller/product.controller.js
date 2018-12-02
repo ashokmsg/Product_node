@@ -13,15 +13,15 @@ exports.sampleSearch = async (req, res) => {
     let client = getDbConnection();
     let elastic = getElasticConnection();
     try {
-        logWriter(`add product-i-started`);
+        logWriter(`sample search-i-started`);
         let result = await elastic.search({
             "index": "kibana_sample_data_flights",
         });
        res.send(result);
         
-        logWriter(`add product-i-finished`);
+        logWriter(`sample search-i-finished`);
     } catch (error) {
-        logWriter(`add product-e-${error.toString()}`);
+        logWriter(`sample search-e-${error.toString()}`);
         console.log(error.toString());
         handleError(constants.response_code.internal_server_error, res, constants.error_messages.internal_server_error);
     } finally {
@@ -31,10 +31,31 @@ exports.sampleSearch = async (req, res) => {
 
 exports.addProduct = async (req, res) => {
     let client = getDbConnection();
+    let elastic = getElasticConnection();
     try {
         logWriter(`add product-i-started`);
-        res.send("hai");
-        //code for add product
+        var f=req.body.id;
+        let result=await elastic.index
+                ({
+            "index":"product_details",
+            "type":"_doc",
+            "body":
+            {
+          "author" : req.body.autor,
+          "isbn" : req.body.isbn,
+          "title" : req.body.title,
+          "unit" : req.body.unit,
+          "product_type" : req.body.product_type,
+          "special_price" : req.body.special_price,
+          "orginal_price" : req.body.original_price,
+          "category" : req.body.category,
+          "published_date":req.body.published_date,
+          "page_count":req.body.page_count,
+          "status":req.body.status,
+          "thumbnail_url":req.body.thumbnail_url
+            }
+        });
+        res.end();
         logWriter(`add product-i-finished`);
     } catch (error) {
         logWriter(`add product-e-${error.toString()}`);

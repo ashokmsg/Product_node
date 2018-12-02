@@ -4,3 +4,23 @@ add product-i-started-Sun Dec 02 2018 15:27:01 GMT+0530 (India Standard Time)-43
 add product-e-[index_not_found_exception] no such index, with { resource.type="index_or_alias" & resource.id="some_index" & index_uuid="_na_" & index="some_index" } :: {"path":"/some_index/doc/_search","query":{},"body":"{\"size\":0,\"aggs\":{\"max_date\":{\"max\":{\"field\":\"some_field_date\"}}}}","statusCode":404,"response":"{\"error\":{\"root_cause\":[{\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"some_index\",\"index_uuid\":\"_na_\",\"index\":\"some_index\"}],\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"some_index\",\"index_uuid\":\"_na_\",\"index\":\"some_index\"},\"status\":404}"}-Sun Dec 02 2018 15:27:01 GMT+0530 (India Standard Time)-685
 add product-i-started-Sun Dec 02 2018 15:28:30 GMT+0530 (India Standard Time)-388
 add product-i-finished-Sun Dec 02 2018 15:28:30 GMT+0530 (India Standard Time)-822
+add product-i-started-Sun Dec 02 2018 18:43:21 GMT+0530 (India Standard Time)-864
+add product-e-ReferenceError: elastic is not defined-Sun Dec 02 2018 18:43:21 GMT+0530 (India Standard Time)-884
+add product-i-started-Sun Dec 02 2018 18:43:54 GMT+0530 (India Standard Time)-806
+add product-e-TypeError: elastic.post is not a function-Sun Dec 02 2018 18:43:54 GMT+0530 (India Standard Time)-813
+add product-i-started-Sun Dec 02 2018 18:44:44 GMT+0530 (India Standard Time)-85
+add product-e-TypeError: Unable to build a path with those params. Supply at least id-Sun Dec 02 2018 18:44:44 GMT+0530 (India Standard Time)-104
+add product-i-started-Sun Dec 02 2018 18:45:20 GMT+0530 (India Standard Time)-15
+add product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Sun Dec 02 2018 18:45:20 GMT+0530 (India Standard Time)-37
+add product-i-started-Sun Dec 02 2018 18:45:58 GMT+0530 (India Standard Time)-496
+add product-e-TypeError: Bulk body should either be an Array of commands/string, or a String-Sun Dec 02 2018 18:45:58 GMT+0530 (India Standard Time)-527
+add product-i-started-Sun Dec 02 2018 18:47:59 GMT+0530 (India Standard Time)-439
+add product-i-finished-Sun Dec 02 2018 18:47:59 GMT+0530 (India Standard Time)-807
+add product-i-started-Sun Dec 02 2018 18:59:49 GMT+0530 (India Standard Time)-541
+add product-i-finished-Sun Dec 02 2018 18:59:49 GMT+0530 (India Standard Time)-737
+add product-i-started-Sun Dec 02 2018 19:01:48 GMT+0530 (India Standard Time)-798
+add product-i-finished-Sun Dec 02 2018 19:01:49 GMT+0530 (India Standard Time)-466
+add product-i-started-Sun Dec 02 2018 19:16:53 GMT+0530 (India Standard Time)-513
+add product-i-finished-Sun Dec 02 2018 19:16:54 GMT+0530 (India Standard Time)-102
+add product-i-started-Sun Dec 02 2018 19:18:02 GMT+0530 (India Standard Time)-228
+add product-i-finished-Sun Dec 02 2018 19:18:02 GMT+0530 (India Standard Time)-582
