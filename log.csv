@@ -24,3 +24,38 @@ add product-i-started-Sun Dec 02 2018 19:16:53 GMT+0530 (India Standard Time)-51
 add product-i-finished-Sun Dec 02 2018 19:16:54 GMT+0530 (India Standard Time)-102
 add product-i-started-Sun Dec 02 2018 19:18:02 GMT+0530 (India Standard Time)-228
 add product-i-finished-Sun Dec 02 2018 19:18:02 GMT+0530 (India Standard Time)-582
+sample search-i-started-Mon Dec 03 2018 01:06:02 GMT+0530 (India Standard Time)-84
+sample search-i-finished-Mon Dec 03 2018 01:06:02 GMT+0530 (India Standard Time)-541
+sample search-i-started-Mon Dec 03 2018 01:14:41 GMT+0530 (India Standard Time)-398
+sample search-i-finished-Mon Dec 03 2018 01:14:41 GMT+0530 (India Standard Time)-507
+update product-i-started-Mon Dec 03 2018 01:15:28 GMT+0530 (India Standard Time)-327
+update product-e-ReferenceError: elastic is not defined-Mon Dec 03 2018 01:15:28 GMT+0530 (India Standard Time)-331
+update product-i-started-Mon Dec 03 2018 01:18:17 GMT+0530 (India Standard Time)-216
+update product-e-[illegal_argument_exception] request [/product_details/_doc/_search] contains unrecognized parameter: [id] :: {"path":"/product_details/_doc/_search","query":{"id":"Zsorb2cBIa6uHkYa9qqc"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/product_details/_doc/_search] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/product_details/_doc/_search] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 01:18:17 GMT+0530 (India Standard Time)-313
+update product-i-started-Mon Dec 03 2018 01:20:13 GMT+0530 (India Standard Time)-782
+update product-e-TypeError: Cannot read property 'total' of undefined-Mon Dec 03 2018 01:20:13 GMT+0530 (India Standard Time)-879
+update product-i-started-Mon Dec 03 2018 01:21:10 GMT+0530 (India Standard Time)-619
+update product-e-TypeError: Cannot read property 'total' of undefined-Mon Dec 03 2018 01:21:10 GMT+0530 (India Standard Time)-714
+update product-i-started-Mon Dec 03 2018 01:21:37 GMT+0530 (India Standard Time)-914
+update product-e-[action_request_validation_exception] Validation Failed: 1: script or doc is missing; :: {"path":"/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update","query":{},"body":"{\"isbn\":\"1234\",\"title\":\"GENERAL PEDIATRIC SURGERY.    2  CD'S   SET\",\"unit\":\"RS.\",\"product_type\":\"CD'S AUDIO CASSETTES\",\"special_price\":\"800\",\"category\":null}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"}],\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"},\"status\":400}"}-Mon Dec 03 2018 01:21:38 GMT+0530 (India Standard Time)-58
+update product-i-started-Mon Dec 03 2018 01:23:13 GMT+0530 (India Standard Time)-996
+update product-e-[action_request_validation_exception] Validation Failed: 1: script or doc is missing; :: {"path":"/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update","query":{},"body":"{\"isbn\":\"1234\",\"title\":\"GENERAL PEDIATRIC SURGERY.    2  CD'S   SET\",\"unit\":\"RS.\",\"product_type\":\"CD'S AUDIO CASSETTES\",\"special_price\":\"800\",\"category\":null}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"}],\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"},\"status\":400}"}-Mon Dec 03 2018 01:23:14 GMT+0530 (India Standard Time)-140
+update product-i-started-Mon Dec 03 2018 01:23:51 GMT+0530 (India Standard Time)-849
+update product-i-Product doesn't exist-Mon Dec 03 2018 01:23:51 GMT+0530 (India Standard Time)-956
+update product-i-finished-Mon Dec 03 2018 01:23:51 GMT+0530 (India Standard Time)-959
+update product-i-started-Mon Dec 03 2018 01:26:15 GMT+0530 (India Standard Time)-978
+update product-e-[action_request_validation_exception] Validation Failed: 1: script or doc is missing; :: {"path":"/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update","query":{},"body":"{\"isbn\":\"1234\",\"title\":\"GENERAL PEDIATRIC SURGERY.    2  CD'S   SET\",\"unit\":\"RS.\",\"product_type\":\"CD'S AUDIO CASSETTES\",\"special_price\":\"800\",\"category\":null}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"}],\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"},\"status\":400}"}-Mon Dec 03 2018 01:26:16 GMT+0530 (India Standard Time)-113
+update product-i-started-Mon Dec 03 2018 01:33:30 GMT+0530 (India Standard Time)-638
+update product-e-[action_request_validation_exception] Validation Failed: 1: script or doc is missing; :: {"path":"/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update","query":{},"body":"{\"isbn\":\"1234\",\"title\":\"GENERAL PEDIATRIC SURGERY.    2  CD'S   SET\",\"unit\":\"RS.\",\"product_type\":\"CD'S AUDIO CASSETTES\",\"special_price\":\"800\",\"category\":null}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"}],\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"},\"status\":400}"}-Mon Dec 03 2018 01:33:30 GMT+0530 (India Standard Time)-783
+update product-i-started-Mon Dec 03 2018 01:38:25 GMT+0530 (India Standard Time)-690
+update product-e-[illegal_argument_exception] request [/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update] contains unrecognized parameter: [doc] :: {"path":"/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update","query":{"doc":{"isbn":"1234","title":"GENERAL PEDIATRIC SURGERY.    2  CD'S   SET","unit":"RS.","product_type":"CD'S AUDIO CASSETTES","special_price":"800","category":null}},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update] contains unrecognized parameter: [doc]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/product_details/_doc/Zsorb2cBIa6uHkYa9qqc/_update] contains unrecognized parameter: [doc]\"},\"status\":400}"}-Mon Dec 03 2018 01:38:25 GMT+0530 (India Standard Time)-834
+update product-i-started-Mon Dec 03 2018 01:39:23 GMT+0530 (India Standard Time)-880
+update product-i-finished-Mon Dec 03 2018 01:39:24 GMT+0530 (India Standard Time)-30
+update product-i-started-Mon Dec 03 2018 01:40:38 GMT+0530 (India Standard Time)-117
+update product-i-finished-Mon Dec 03 2018 01:40:38 GMT+0530 (India Standard Time)-236
+update product-i-started-Mon Dec 03 2018 01:43:43 GMT+0530 (India Standard Time)-839
+update product-i-finished-Mon Dec 03 2018 01:43:43 GMT+0530 (India Standard Time)-953
+update product-i-started-Mon Dec 03 2018 01:44:59 GMT+0530 (India Standard Time)-353
+update product-i-Product doesn't exist-Mon Dec 03 2018 01:44:59 GMT+0530 (India Standard Time)-443
+update product-i-started-Mon Dec 03 2018 01:45:33 GMT+0530 (India Standard Time)-196
+update product-i-finished-Mon Dec 03 2018 01:45:33 GMT+0530 (India Standard Time)-311

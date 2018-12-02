@@ -34,29 +34,6 @@ exports.addProduct = async (req, res) => {
     let elastic = getElasticConnection();
     try {
         logWriter(`add product-i-started`);
-<<<<<<< HEAD
-        var f = req.body.id;
-        let result = await elastic.index
-            ({
-                "index": "product_details",
-                "type": "_doc",
-                "body":
-                {
-                    "author": req.body.autor,
-                    "isbn": req.body.isbn,
-                    "title": req.body.title,
-                    "unit": req.body.unit,
-                    "product_type": req.body.product_type,
-                    "special_price": req.body.special_price,
-                    "orginal_price": req.body.original_price,
-                    "category": req.body.category,
-                    "published_date": req.body.published_date,
-                    "page_count": req.body.page_count,
-                    "status": req.body.status,
-                    "thumbnail_url": req.body.thumbnail_url
-                }
-            });
-=======
         let pg_result=await client.query(constants.query.insertProduct,[req.body.title,req.body.isbn,req.body.page_count,req.body.type,req.body.published_date,req.body.thumbnail_url,req.body.status,req.body.authors,req.body.categories,req.body.unit,req.body.special_price,req.body.original_price]);
         var result_id = await client.query(constants.query.getId);
         var product_id=result_id.rows[0].id+1;
@@ -82,7 +59,6 @@ exports.addProduct = async (req, res) => {
           "published_date":req.body.published_date
             }
         });
->>>>>>> 319b69cc17605290096fc92540cac5dc4f279001
         res.end();
         logWriter(`add product-i-finished`);
     } catch (error) {
@@ -96,24 +72,27 @@ exports.addProduct = async (req, res) => {
 
 exports.updateProduct = async (req, res) => {
     let client = getDbConnection();
+    let elastic = getElasticConnection();
     try {
         logWriter(`update product-i-started`);
         //code for update product ---om
         var product_ID = req.body.id;
-        let searchResult = await elastic.search
+        let searchResult = await elastic.exists
             ({
                 "index": "product_details",
                 "type": "_doc",
                 "id": product_ID
             });
-        if (searchResult.hits.total == 1) {
-            await elastic.index
+        console.log(searchResult);
+        if (searchResult) {
+            await elastic.update
                 ({
                     "index": "product_details",
                     "type": "_doc",
-                    "body":
+                    "id": req.body.id,
+                    "body": 
                     {
-                        "id": req.body.id,
+                        "doc":{
                         "author": req.body.autor,
                         "isbn": req.body.isbn,
                         "title": req.body.title,
@@ -121,12 +100,12 @@ exports.updateProduct = async (req, res) => {
                         "product_type": req.body.product_type,
                         "special_price": req.body.special_price,
                         "orginal_price": req.body.original_price,
-                        "category": req.body.category,
-                        "published_date": req.body.published_date,
-                        "page_count": req.body.page_count,
-                        "status": req.body.status,
-                        "thumbnail_url": req.body.thumbnail_url
-                    }
+                        "category": req.body.category
+                        // "published_date": req.body.published_date,
+                        // "page_count": req.body.page_count,
+                        // "status": req.body.status,
+                        // "thumbnail_url": req.body.thumbnail_url
+                    }}
                 });
                 res.end();
                 logWriter(`update product-i-finished`);
@@ -134,7 +113,7 @@ exports.updateProduct = async (req, res) => {
         else{
             logWriter(`update product-i-Product doesn't exist`)
         }
-        logWriter(`update product-i-finished`);
+        // logWriter(`update product-i-finished`);
     } catch (error) {
         logWriter(`update product-e-${error.toString()}`);
         console.log(error.toString());
