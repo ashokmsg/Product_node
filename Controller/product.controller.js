@@ -35,8 +35,11 @@ exports.addProduct = async (req, res) => {
     try {
         logWriter(`add product-i-started`);
         let pg_result=await client.query(constants.query.insertProduct,[req.body.title,req.body.isbn,req.body.page_count,req.body.type,req.body.published_date,req.body.thumbnail_url,req.body.status,req.body.authors,req.body.categories,req.body.unit,req.body.special_price,req.body.original_price]);
+
         var result_id = await client.query(constants.query.getId);
+
         var product_id=result_id.rows[0].id+1;
+
         let elastic_result=await elastic.index
         ({
             "index":"products",
@@ -125,9 +128,30 @@ exports.updateProduct = async (req, res) => {
 
 exports.deleteProduct = async (req, res) => {
     let client = getDbConnection();
+    let elastic = getElasticConnection();
     try {
         logWriter(`delete product-i-started`);
         //code for delete product --sanjay
+        // if(validations.validateDeleteID(req.params.product_id)){
+        //     handleError(constants.response_code.internal_server_error, res, constants.error_messages.internal_server_error);
+        //     return;
+        // }
+        let queryParams = [req.params.product_id];
+        let result1 = await client.query(constants.query.soft_delete_query, queryParams);
+        console.log("here");
+        let result2 = await elastic.deleteByQuery({
+            "index":"majestiic_book_house",
+            "type":"doc",
+            "body":{
+                "query":{
+                    "term":{
+                        "product_id":req.params.product_id
+                    }
+                }
+            }
+        });
+        console.log(result2);
+        res.send({});
         logWriter(`delete product-i-finished`);
     } catch (error) {
         logWriter(`delete product-e-${error.toString()}`);
@@ -137,5 +161,3 @@ exports.deleteProduct = async (req, res) => {
         client.end();
     }
 }
-
-
