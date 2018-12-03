@@ -8,7 +8,6 @@ const { generateToken } = require("../Services/passport.service");
 //external imports
 const fetch = require("node-fetch");
 
-
 exports.addProduct = async (req, res) => {
     let client = getDbConnection();
     let elastic = getElasticConnection();
