@@ -27,7 +27,7 @@ create table rating_and_review(
 
 
 
-create table product_details
+create table product
 (
 product_id SERIAL  CONSTRAINT product_pk PRIMARY KEY ,
 title VARCHAR(100),
@@ -40,14 +40,14 @@ status VARCHAR(100),
 authors varchar[10],
 categories varchar[10],
 unit varchar(20),
-orginal_price  INTEGER,
+original_price  INTEGER,
 special_price  INTEGER,
-created_date DATE now(),
-updated_date DATE now(),
+created_date DATE default now(),
+updated_date DATE default now(),
 is_delete bool
 );
 
-insert into product_details(title,isbn,page_count,thumbnail_url,authors,categories,price) 
+insert into product(title,isbn,page_count,thumbnail_url,authors,categories,original_price) 
 values (
 'tit',
 1884777686,

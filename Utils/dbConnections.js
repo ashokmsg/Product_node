@@ -8,7 +8,6 @@ exports.getDbConnection = () => {
     return client;
 }
 
-
 exports.getElasticConnection = () => {
 var client = new elasticsearch.Client({
     host: 'http://35.200.203.192:9200/',

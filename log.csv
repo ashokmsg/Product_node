@@ -73,3 +73,170 @@ update product-i-started-Sun Dec 02 2018 23:06:55 GMT+0530 (India Standard Time)
 update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Sun Dec 02 2018 23:06:55 GMT+0530 (India Standard Time)-402
 =======
 >>>>>>> 51b32f58a8af0db77fd924aacb538b4e4dd3d4d7
+add product-i-started-Sun Dec 02 2018 23:46:16 GMT+0530 (India Standard Time)-598
+add product-e-error: null value in column "isbn" violates not-null constraint-Sun Dec 02 2018 23:46:17 GMT+0530 (India Standard Time)-221
+add product-i-started-Sun Dec 02 2018 23:47:37 GMT+0530 (India Standard Time)-706
+add product-i-finished-Sun Dec 02 2018 23:47:38 GMT+0530 (India Standard Time)-349
+add product-i-started-Sun Dec 02 2018 23:47:47 GMT+0530 (India Standard Time)-692
+add product-i-finished-Sun Dec 02 2018 23:47:48 GMT+0530 (India Standard Time)-103
+delete product-i-started-Sun Dec 02 2018 23:49:30 GMT+0530 (India Standard Time)-934
+delete product-e-error: relation "product_details" does not exist-Sun Dec 02 2018 23:49:31 GMT+0530 (India Standard Time)-178
+delete product-i-started-Sun Dec 02 2018 23:50:10 GMT+0530 (India Standard Time)-174
+delete product-i-finished-Sun Dec 02 2018 23:50:10 GMT+0530 (India Standard Time)-966
+delete product-i-started-Sun Dec 02 2018 23:52:53 GMT+0530 (India Standard Time)-826
+delete product-i-finished-Sun Dec 02 2018 23:52:54 GMT+0530 (India Standard Time)-201
+update product-i-started-Sun Dec 02 2018 23:54:30 GMT+0530 (India Standard Time)-728
+update product-i-Product doesn't exist-Sun Dec 02 2018 23:54:31 GMT+0530 (India Standard Time)-104
+update product-i-finished-Sun Dec 02 2018 23:54:31 GMT+0530 (India Standard Time)-104
+update product-i-started-Sun Dec 02 2018 23:55:48 GMT+0530 (India Standard Time)-196
+update product-i-Product doesn't exist-Sun Dec 02 2018 23:55:48 GMT+0530 (India Standard Time)-416
+update product-i-finished-Sun Dec 02 2018 23:55:48 GMT+0530 (India Standard Time)-417
+update product-i-started-Sun Dec 02 2018 23:56:56 GMT+0530 (India Standard Time)-256
+update product-i-Product doesn't exist-Sun Dec 02 2018 23:56:56 GMT+0530 (India Standard Time)-439
+update product-i-finished-Sun Dec 02 2018 23:56:56 GMT+0530 (India Standard Time)-440
+update product-i-started-Sun Dec 02 2018 23:59:38 GMT+0530 (India Standard Time)-636
+update product-i-finished-Sun Dec 02 2018 23:59:38 GMT+0530 (India Standard Time)-865
+update product-i-started-Sun Dec 02 2018 23:59:59 GMT+0530 (India Standard Time)-555
+update product-i-finished-Sun Dec 02 2018 23:59:59 GMT+0530 (India Standard Time)-756
+update product-i-started-Mon Dec 03 2018 00:00:04 GMT+0530 (India Standard Time)-541
+update product-i-finished-Mon Dec 03 2018 00:00:04 GMT+0530 (India Standard Time)-670
+update product-i-started-Mon Dec 03 2018 00:01:36 GMT+0530 (India Standard Time)-938
+update product-e-[parsing_exception] Unknown key for a START_OBJECT in [body]., with { line=1 & col=46 } :: {"path":"/majestiic_book_house/doc/_update_by_query","query":{},"body":"{\"query\":{\"term\":{\"product_id\":\"20\"}},\"body\":{\"author\":[\"Michael J. Barlotta\",\"Jason R. Weiss\"],\"isbn\":\"18886\",\"title\":\"Taming\",\"unit\":\"Rs.\",\"special_price\":800,\"orginal_price\":857,\"category\":[\"PowerBuilder\"],\"page_count\":36,\"status\":\"PUBLISH\",\"thumbnail_url\":\"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta3.jpg\"}}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"parsing_exception\",\"reason\":\"Unknown key for a START_OBJECT in [body].\",\"line\":1,\"col\":46}],\"type\":\"parsing_exception\",\"reason\":\"Unknown key for a START_OBJECT in [body].\",\"line\":1,\"col\":46},\"status\":400}"}-Mon Dec 03 2018 00:01:37 GMT+0530 (India Standard Time)-164
+update product-i-started-Mon Dec 03 2018 00:09:33 GMT+0530 (India Standard Time)-826
+update product-e-[parsing_exception] Unknown key for a START_OBJECT in [body]., with { line=1 & col=46 } :: {"path":"/majestiic_book_house/doc/_update_by_query","query":{},"body":"{\"query\":{\"term\":{\"product_id\":\"20\"}},\"body\":{\"author\":[\"Michael J. Barlotta\",\"Jason R. Weiss\"],\"isbn\":\"18886\",\"title\":\"Taming\",\"unit\":\"Rs.\",\"special_price\":800,\"orginal_price\":857,\"category\":[\"PowerBuilder\"],\"page_count\":36,\"status\":\"PUBLISH\",\"thumbnail_url\":\"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta3.jpg\"}}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"parsing_exception\",\"reason\":\"Unknown key for a START_OBJECT in [body].\",\"line\":1,\"col\":46}],\"type\":\"parsing_exception\",\"reason\":\"Unknown key for a START_OBJECT in [body].\",\"line\":1,\"col\":46},\"status\":400}"}-Mon Dec 03 2018 00:09:33 GMT+0530 (India Standard Time)-957
+update product-i-started-Mon Dec 03 2018 00:09:55 GMT+0530 (India Standard Time)-160
+update product-i-finished-Mon Dec 03 2018 00:09:55 GMT+0530 (India Standard Time)-850
+update product-i-started-Mon Dec 03 2018 00:11:20 GMT+0530 (India Standard Time)-456
+update product-i-finished-Mon Dec 03 2018 00:11:20 GMT+0530 (India Standard Time)-973
+update product-i-started-Mon Dec 03 2018 00:12:34 GMT+0530 (India Standard Time)-157
+update product-i-finished-Mon Dec 03 2018 00:12:34 GMT+0530 (India Standard Time)-472
+update product-i-started-Mon Dec 03 2018 00:16:25 GMT+0530 (India Standard Time)-771
+update product-i-Product doesn't exist-Mon Dec 03 2018 00:16:26 GMT+0530 (India Standard Time)-269
+update product-i-finished-Mon Dec 03 2018 00:16:26 GMT+0530 (India Standard Time)-270
+update product-i-started-Mon Dec 03 2018 00:16:33 GMT+0530 (India Standard Time)-712
+update product-i-Product doesn't exist-Mon Dec 03 2018 00:16:33 GMT+0530 (India Standard Time)-834
+update product-i-finished-Mon Dec 03 2018 00:16:33 GMT+0530 (India Standard Time)-835
+update product-i-started-Mon Dec 03 2018 00:17:02 GMT+0530 (India Standard Time)-242
+update product-i-Product doesn't exist-Mon Dec 03 2018 00:17:02 GMT+0530 (India Standard Time)-441
+update product-i-started-Mon Dec 03 2018 00:17:58 GMT+0530 (India Standard Time)-594
+update product-i-Product doesn't exist-Mon Dec 03 2018 00:17:58 GMT+0530 (India Standard Time)-780
+update product-i-started-Mon Dec 03 2018 00:18:28 GMT+0530 (India Standard Time)-981
+update product-i-Product doesn't exist-Mon Dec 03 2018 00:18:29 GMT+0530 (India Standard Time)-209
+update product-i-started-Mon Dec 03 2018 00:19:29 GMT+0530 (India Standard Time)-586
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [id] :: {"path":"/products/_doc/_search","query":{"id":"20"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 00:19:29 GMT+0530 (India Standard Time)-881
+update product-i-started-Mon Dec 03 2018 00:20:06 GMT+0530 (India Standard Time)-760
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [id] :: {"path":"/products/_doc/_search","query":{"id":"20"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 00:20:06 GMT+0530 (India Standard Time)-938
+update product-i-started-Mon Dec 03 2018 00:21:08 GMT+0530 (India Standard Time)-38
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [query] :: {"path":"/products/_doc/_search","query":{"query":{"term":{"product_id":"20"}}},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"},\"status\":400}"}-Mon Dec 03 2018 00:21:08 GMT+0530 (India Standard Time)-348
+update product-i-started-Mon Dec 03 2018 00:22:41 GMT+0530 (India Standard Time)-290
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [query] :: {"path":"/products/_doc/_search","query":{"query":{"term":{"product_id":"20"}}},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"},\"status\":400}"}-Mon Dec 03 2018 00:22:41 GMT+0530 (India Standard Time)-470
+update product-i-started-Mon Dec 03 2018 00:23:53 GMT+0530 (India Standard Time)-281
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 00:23:53 GMT+0530 (India Standard Time)-293
+update product-i-started-Mon Dec 03 2018 00:23:59 GMT+0530 (India Standard Time)-461
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 00:23:59 GMT+0530 (India Standard Time)-464
+update product-i-started-Mon Dec 03 2018 00:24:54 GMT+0530 (India Standard Time)-509
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 00:24:54 GMT+0530 (India Standard Time)-522
+update product-i-started-Mon Dec 03 2018 00:25:41 GMT+0530 (India Standard Time)-806
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [query] :: {"path":"/products/_doc/_search","query":{"query":{"term":{"id":"20"}}},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [query]\"},\"status\":400}"}-Mon Dec 03 2018 00:25:42 GMT+0530 (India Standard Time)-4
+update product-i-started-Mon Dec 03 2018 00:26:29 GMT+0530 (India Standard Time)-491
+update product-e-[illegal_argument_exception] request [/products/_doc/_search] contains unrecognized parameter: [id] :: {"path":"/products/_doc/_search","query":{"id":"20"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_search] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 00:26:29 GMT+0530 (India Standard Time)-693
+update product-i-started-Mon Dec 03 2018 00:28:29 GMT+0530 (India Standard Time)-518
+update product-e-[illegal_argument_exception] request [/products/_search] contains unrecognized parameter: [id] :: {"path":"/products/_search","query":{"id":"20"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_search] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_search] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 00:28:29 GMT+0530 (India Standard Time)-696
+update product-i-started-Mon Dec 03 2018 00:29:24 GMT+0530 (India Standard Time)-671
+update product-i-finished-Mon Dec 03 2018 00:29:24 GMT+0530 (India Standard Time)-892
+update product-i-started-Mon Dec 03 2018 00:30:27 GMT+0530 (India Standard Time)-762
+update product-e-[index_not_found_exception] no such index, with { resource.type="index_or_alias" & resource.id="products" & index_uuid="_na_" & index="products" } :: {"path":"/products/_doc/_search","query":{},"body":"{\"query\":{\"term\":{\"product_id\":\"20\"}}}","statusCode":404,"response":"{\"error\":{\"root_cause\":[{\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"products\",\"index_uuid\":\"_na_\",\"index\":\"products\"}],\"type\":\"index_not_found_exception\",\"reason\":\"no such index\",\"resource.type\":\"index_or_alias\",\"resource.id\":\"products\",\"index_uuid\":\"_na_\",\"index\":\"products\"},\"status\":404}"}-Mon Dec 03 2018 00:30:27 GMT+0530 (India Standard Time)-892
+add product-i-started-Mon Dec 03 2018 00:31:17 GMT+0530 (India Standard Time)-652
+add product-i-finished-Mon Dec 03 2018 00:31:18 GMT+0530 (India Standard Time)-143
+update product-i-started-Mon Dec 03 2018 00:31:51 GMT+0530 (India Standard Time)-571
+update product-i-finished-Mon Dec 03 2018 00:31:51 GMT+0530 (India Standard Time)-735
+update product-i-started-Mon Dec 03 2018 00:32:55 GMT+0530 (India Standard Time)-708
+update product-i-finished-Mon Dec 03 2018 00:32:56 GMT+0530 (India Standard Time)-216
+update product-i-started-Mon Dec 03 2018 00:33:17 GMT+0530 (India Standard Time)-985
+update product-i-finished-Mon Dec 03 2018 00:33:18 GMT+0530 (India Standard Time)-180
+add product-i-started-Mon Dec 03 2018 00:34:23 GMT+0530 (India Standard Time)-703
+add product-i-finished-Mon Dec 03 2018 00:34:24 GMT+0530 (India Standard Time)-270
+add product-i-started-Mon Dec 03 2018 00:34:48 GMT+0530 (India Standard Time)-961
+add product-i-finished-Mon Dec 03 2018 00:34:49 GMT+0530 (India Standard Time)-455
+update product-i-started-Mon Dec 03 2018 00:35:14 GMT+0530 (India Standard Time)-683
+update product-i-finished-Mon Dec 03 2018 00:35:14 GMT+0530 (India Standard Time)-951
+update product-i-started-Mon Dec 03 2018 00:36:12 GMT+0530 (India Standard Time)-355
+update product-i-finished-Mon Dec 03 2018 00:36:12 GMT+0530 (India Standard Time)-525
+update product-i-started-Mon Dec 03 2018 00:36:44 GMT+0530 (India Standard Time)-38
+update product-i-finished-Mon Dec 03 2018 00:36:44 GMT+0530 (India Standard Time)-280
+update product-i-started-Mon Dec 03 2018 00:37:50 GMT+0530 (India Standard Time)-391
+update product-i-finished-Mon Dec 03 2018 00:37:51 GMT+0530 (India Standard Time)-170
+add product-i-started-Mon Dec 03 2018 00:38:16 GMT+0530 (India Standard Time)-173
+add product-i-finished-Mon Dec 03 2018 00:38:16 GMT+0530 (India Standard Time)-914
+update product-i-started-Mon Dec 03 2018 00:38:26 GMT+0530 (India Standard Time)-991
+update product-i-finished-Mon Dec 03 2018 00:38:27 GMT+0530 (India Standard Time)-175
+add product-i-started-Mon Dec 03 2018 00:40:10 GMT+0530 (India Standard Time)-383
+add product-i-finished-Mon Dec 03 2018 00:40:11 GMT+0530 (India Standard Time)-183
+update product-i-started-Mon Dec 03 2018 00:40:18 GMT+0530 (India Standard Time)-160
+update product-i-finished-Mon Dec 03 2018 00:40:18 GMT+0530 (India Standard Time)-342
+delete product-i-started-Mon Dec 03 2018 00:40:50 GMT+0530 (India Standard Time)-522
+delete product-i-finished-Mon Dec 03 2018 00:40:51 GMT+0530 (India Standard Time)-344
+add product-i-started-Mon Dec 03 2018 00:42:39 GMT+0530 (India Standard Time)-529
+add product-i-finished-Mon Dec 03 2018 00:42:40 GMT+0530 (India Standard Time)-76
+update product-i-started-Mon Dec 03 2018 00:43:10 GMT+0530 (India Standard Time)-105
+update product-i-finished-Mon Dec 03 2018 00:43:10 GMT+0530 (India Standard Time)-297
+delete product-i-started-Mon Dec 03 2018 00:43:38 GMT+0530 (India Standard Time)-349
+delete product-i-finished-Mon Dec 03 2018 00:43:39 GMT+0530 (India Standard Time)-923
+delete product-i-started-Mon Dec 03 2018 00:44:36 GMT+0530 (India Standard Time)-312
+delete product-i-finished-Mon Dec 03 2018 00:44:36 GMT+0530 (India Standard Time)-780
+add product-i-started-Mon Dec 03 2018 00:44:45 GMT+0530 (India Standard Time)-759
+add product-i-finished-Mon Dec 03 2018 00:44:46 GMT+0530 (India Standard Time)-665
+delete product-i-started-Mon Dec 03 2018 00:44:53 GMT+0530 (India Standard Time)-57
+delete product-i-finished-Mon Dec 03 2018 00:44:53 GMT+0530 (India Standard Time)-487
+update product-i-started-Mon Dec 03 2018 00:45:33 GMT+0530 (India Standard Time)-131
+update product-i-finished-Mon Dec 03 2018 00:45:33 GMT+0530 (India Standard Time)-346
+add product-i-started-Mon Dec 03 2018 00:47:32 GMT+0530 (India Standard Time)-171
+add product-i-finished-Mon Dec 03 2018 00:47:32 GMT+0530 (India Standard Time)-828
+add product-i-started-Mon Dec 03 2018 00:47:42 GMT+0530 (India Standard Time)-907
+add product-i-finished-Mon Dec 03 2018 00:47:43 GMT+0530 (India Standard Time)-525
+update product-i-started-Mon Dec 03 2018 00:47:58 GMT+0530 (India Standard Time)-216
+update product-i-finished-Mon Dec 03 2018 00:47:58 GMT+0530 (India Standard Time)-388
+delete product-i-started-Mon Dec 03 2018 00:48:25 GMT+0530 (India Standard Time)-670
+delete product-e-ReferenceError: queryParams is not defined-Mon Dec 03 2018 00:48:25 GMT+0530 (India Standard Time)-713
+add product-i-started-Mon Dec 03 2018 21:20:20 GMT+0530 (India Standard Time)-669
+add product-i-finished-Mon Dec 03 2018 21:20:23 GMT+0530 (India Standard Time)-387
+update product-i-started-Mon Dec 03 2018 21:21:32 GMT+0530 (India Standard Time)-75
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:21:32 GMT+0530 (India Standard Time)-108
+update product-i-started-Mon Dec 03 2018 21:22:52 GMT+0530 (India Standard Time)-172
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:22:52 GMT+0530 (India Standard Time)-182
+update product-i-started-Mon Dec 03 2018 21:23:39 GMT+0530 (India Standard Time)-206
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:23:39 GMT+0530 (India Standard Time)-219
+update product-i-started-Mon Dec 03 2018 21:24:02 GMT+0530 (India Standard Time)-280
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:24:02 GMT+0530 (India Standard Time)-290
+add product-i-started-Mon Dec 03 2018 21:37:50 GMT+0530 (India Standard Time)-993
+add product-i-finished-Mon Dec 03 2018 21:37:52 GMT+0530 (India Standard Time)-482
+add product-i-started-Mon Dec 03 2018 21:40:14 GMT+0530 (India Standard Time)-12
+add product-i-finished-Mon Dec 03 2018 21:40:14 GMT+0530 (India Standard Time)-572
+delete product-i-started-Mon Dec 03 2018 21:41:08 GMT+0530 (India Standard Time)-882
+delete product-e-Error: Query values must be an array-Mon Dec 03 2018 21:41:09 GMT+0530 (India Standard Time)-43
+delete product-i-started-Mon Dec 03 2018 21:43:16 GMT+0530 (India Standard Time)-547
+delete product-e-[illegal_argument_exception] request [/products/doc/_delete_by_query] contains unrecognized parameter: [id] :: {"path":"/products/doc/_delete_by_query","query":{"id":"32"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/doc/_delete_by_query] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/doc/_delete_by_query] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 21:43:17 GMT+0530 (India Standard Time)-242
+delete product-i-started-Mon Dec 03 2018 21:44:18 GMT+0530 (India Standard Time)-424
+delete product-e-[illegal_argument_exception] request [/products/_doc/_delete_by_query] contains unrecognized parameter: [id] :: {"path":"/products/_doc/_delete_by_query","query":{"id":"32"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [id]\"},\"status\":400}"}-Mon Dec 03 2018 21:44:19 GMT+0530 (India Standard Time)-368
+delete product-i-started-Mon Dec 03 2018 21:47:37 GMT+0530 (India Standard Time)-917
+delete product-e-[illegal_argument_exception] request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id] :: {"path":"/products/_doc/_delete_by_query","query":{"_id":"32"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id]\"},\"status\":400}"}-Mon Dec 03 2018 21:47:38 GMT+0530 (India Standard Time)-410
+delete product-i-started-Mon Dec 03 2018 21:48:43 GMT+0530 (India Standard Time)-653
+delete product-e-[illegal_argument_exception] request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id] :: {"path":"/products/_doc/_delete_by_query","query":{"_id":"33"},"statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id]\"}],\"type\":\"illegal_argument_exception\",\"reason\":\"request [/products/_doc/_delete_by_query] contains unrecognized parameter: [_id]\"},\"status\":400}"}-Mon Dec 03 2018 21:48:44 GMT+0530 (India Standard Time)-543
+delete product-i-started-Mon Dec 03 2018 21:51:01 GMT+0530 (India Standard Time)-103
+delete product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:51:01 GMT+0530 (India Standard Time)-304
+delete product-i-started-Mon Dec 03 2018 21:51:26 GMT+0530 (India Standard Time)-81
+delete product-i-finished-Mon Dec 03 2018 21:51:26 GMT+0530 (India Standard Time)-551
+add product-i-started-Mon Dec 03 2018 21:52:34 GMT+0530 (India Standard Time)-812
+add product-i-finished-Mon Dec 03 2018 21:52:35 GMT+0530 (India Standard Time)-199
+delete product-i-started-Mon Dec 03 2018 21:53:01 GMT+0530 (India Standard Time)-169
+delete product-i-finished-Mon Dec 03 2018 21:53:01 GMT+0530 (India Standard Time)-596
+add product-i-started-Mon Dec 03 2018 21:56:26 GMT+0530 (India Standard Time)-264
+add product-i-finished-Mon Dec 03 2018 21:56:26 GMT+0530 (India Standard Time)-770
+update product-i-started-Mon Dec 03 2018 21:56:55 GMT+0530 (India Standard Time)-14
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:56:55 GMT+0530 (India Standard Time)-18
+update product-i-started-Mon Dec 03 2018 21:58:26 GMT+0530 (India Standard Time)-371
+update product-e-TypeError: Unable to build a path with those params. Supply at least index, type, id-Mon Dec 03 2018 21:58:26 GMT+0530 (India Standard Time)-383
+update product-i-started-Mon Dec 03 2018 21:58:59 GMT+0530 (India Standard Time)-124
+update product-e-[action_request_validation_exception] Validation Failed: 1: script or doc is missing; :: {"path":"/products/_doc/35/_update","query":{},"body":"{\"author\":[\"Michael J. Barlotta\",\"Jason R. Weiss\"],\"isbn\":\"18886\",\"title\":\"Taming 123\",\"unit\":\"Rs.\",\"special_price\":800,\"orginal_price\":857,\"category\":[\"PowerBuilder\"],\"page_count\":36,\"status\":\"PUBLISH\",\"thumbnail_url\":\"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta3.jpg\"}","statusCode":400,"response":"{\"error\":{\"root_cause\":[{\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"}],\"type\":\"action_request_validation_exception\",\"reason\":\"Validation Failed: 1: script or doc is missing;\"},\"status\":400}"}-Mon Dec 03 2018 21:58:59 GMT+0530 (India Standard Time)-485
+update product-i-started-Mon Dec 03 2018 22:00:15 GMT+0530 (India Standard Time)-288
+update product-i-finished-Mon Dec 03 2018 22:00:15 GMT+0530 (India Standard Time)-710

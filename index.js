@@ -10,8 +10,7 @@ app.use(cors());
 app.use(bodyParser.json({ type: "*/*" }));
 
 
-require("./Routes/rating.routes")(app);
-require("./Routes/product.routes")(app);
-
+require("./Routes/rating.route")(app);
+require("./Routes/product.route")(app);
 
 app.listen(1122);
