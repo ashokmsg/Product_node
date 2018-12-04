@@ -29,7 +29,7 @@ create table rating_and_review(
 
 create table product
 (
-product_id SERIAL  CONSTRAINT product_pk PRIMARY KEY ,
+id SERIAL  CONSTRAINT product_pk PRIMARY KEY ,
 title VARCHAR(100),
 isbn INTEGER NOT NULL,
 page_count INTEGER NOT NULL,
@@ -57,3 +57,16 @@ values (
 '{"PowerBuilder"}',
 857
 );
+
+
+create table cart
+(
+product_id integer references product(id),
+user_id integer references users(user_id),
+id  serial primary key,
+quantity integer not null,
+amount numeric,
+is_delete bool
+);
+
+insert into cart (product_id,user_id,quantity,amount,'false') values (1,1,2,500);

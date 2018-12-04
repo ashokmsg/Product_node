@@ -12,5 +12,6 @@ app.use(bodyParser.json({ type: "*/*" }));
 
 require("./Routes/rating.route")(app);
 require("./Routes/product.route")(app);
+require("./Routes/cart.route")(app);
 
 app.listen(1122);

@@ -23,6 +23,14 @@ module.exports = {
             get_id: 'select max(id) as id from products',
             soft_delete_query: "update product set is_delete='true' where id=$1",
             update_product: "update product set title=$2,isbn=$3,page_count=$4,type=$5,published_date=$6,thumbnail_url=$7,status=$8,authors=$9,categories=$10,unit=$11,special_price=$12,original_price=$13 where id=$1"
+        },
+        cart:
+        {
+            fetch_cart:"select * from cart where is_delete='false'",
+            insert_cart:"insert into cart (id,user_id,product_id,quantity) values ($1,$2,$3,$4)",
+            update_cart:"update cart set quantity = $2 where id=$1",
+            get_id: 'select max(id) as id from cart',
+            delete_cart:"update cart set is_delete='true' where id=$1"
         }
     }
 }

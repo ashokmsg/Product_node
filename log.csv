@@ -281,3 +281,35 @@ update product-i-finished-Mon Dec 03 2018 22:00:15 GMT+0530 (India Standard Time
 =======
 >>>>>>> 92af43ef4c9a4b9208536c01af62b3f790c3ace0
 >>>>>>> 38f37938cc02add49f2b46a88e4bd6102f7500e7
+cart updateCart-i-started-Tue Dec 04 2018 21:46:34 GMT+0530 (India Standard Time)-485
+cart updateCart-e-[document_missing_exception] [doc][1]: document missing, with { index_uuid="pEpR9oenSEy6pw9SWz_nlw" & shard="3" & index="cart" } :: {"path":"/cart/doc/1/_update","query":{},"body":"{\"doc\":{\"quantity\":5}}","statusCode":404,"response":"{\"error\":{\"root_cause\":[{\"type\":\"document_missing_exception\",\"reason\":\"[doc][1]: document missing\",\"index_uuid\":\"pEpR9oenSEy6pw9SWz_nlw\",\"shard\":\"3\",\"index\":\"cart\"}],\"type\":\"document_missing_exception\",\"reason\":\"[doc][1]: document missing\",\"index_uuid\":\"pEpR9oenSEy6pw9SWz_nlw\",\"shard\":\"3\",\"index\":\"cart\"},\"status\":404}"}-Tue Dec 04 2018 21:46:35 GMT+0530 (India Standard Time)-784
+cart addCart-i-started-Tue Dec 04 2018 21:51:12 GMT+0530 (India Standard Time)-984
+cart addCart-e-ReferenceError: user_id is not defined-Tue Dec 04 2018 21:51:13 GMT+0530 (India Standard Time)-385
+cart addCart-i-started-Tue Dec 04 2018 21:51:49 GMT+0530 (India Standard Time)-854
+cart addCart-e-ReferenceError: user_id is not defined-Tue Dec 04 2018 21:51:50 GMT+0530 (India Standard Time)-42
+cart addCart-i-started-Tue Dec 04 2018 21:52:02 GMT+0530 (India Standard Time)-714
+cart addCart-e-error: column "amount" of relation "cart" does not exist-Tue Dec 04 2018 21:52:02 GMT+0530 (India Standard Time)-943
+cart addCart-i-started-Tue Dec 04 2018 21:52:43 GMT+0530 (India Standard Time)-37
+cart addCart-i-finished-Tue Dec 04 2018 21:52:43 GMT+0530 (India Standard Time)-488
+cart deleteCart-i-started-Tue Dec 04 2018 21:54:01 GMT+0530 (India Standard Time)-430
+cart deleteCart-e-TypeError: Client was passed a null or undefined query-Tue Dec 04 2018 21:54:01 GMT+0530 (India Standard Time)-431
+cart deleteCart-i-started-Tue Dec 04 2018 21:54:51 GMT+0530 (India Standard Time)-757
+cart deleteCart-i-finished-Tue Dec 04 2018 21:54:52 GMT+0530 (India Standard Time)-73
+cart fetchCart-i-started-Tue Dec 04 2018 21:55:04 GMT+0530 (India Standard Time)-856
+cart fetchCart-i-finished-Tue Dec 04 2018 21:55:05 GMT+0530 (India Standard Time)-37
+cart fetchCart-i-started-Tue Dec 04 2018 21:55:28 GMT+0530 (India Standard Time)-531
+cart fetchCart-i-finished-Tue Dec 04 2018 21:55:28 GMT+0530 (India Standard Time)-706
+cart fetchCart-i-started-Tue Dec 04 2018 21:56:41 GMT+0530 (India Standard Time)-66
+cart fetchCart-i-finished-Tue Dec 04 2018 21:56:41 GMT+0530 (India Standard Time)-253
+cart fetchCart-i-started-Tue Dec 04 2018 21:57:13 GMT+0530 (India Standard Time)-891
+cart fetchCart-i-finished-Tue Dec 04 2018 21:57:14 GMT+0530 (India Standard Time)-127
+cart fetchCart-i-started-Tue Dec 04 2018 21:57:43 GMT+0530 (India Standard Time)-143
+cart fetchCart-i-finished-Tue Dec 04 2018 21:57:43 GMT+0530 (India Standard Time)-297
+cart fetchCart-i-started-Tue Dec 04 2018 21:58:45 GMT+0530 (India Standard Time)-457
+cart fetchCart-i-finished-Tue Dec 04 2018 21:58:45 GMT+0530 (India Standard Time)-664
+cart fetchCart-i-started-Tue Dec 04 2018 22:01:42 GMT+0530 (India Standard Time)-799
+cart fetchCart-i-finished-Tue Dec 04 2018 22:01:42 GMT+0530 (India Standard Time)-974
+cart fetchCart-i-started-Tue Dec 04 2018 22:02:13 GMT+0530 (India Standard Time)-104
+cart fetchCart-i-finished-Tue Dec 04 2018 22:02:13 GMT+0530 (India Standard Time)-347
+cart fetchCart-i-started-Tue Dec 04 2018 22:03:07 GMT+0530 (India Standard Time)-709
+cart fetchCart-i-finished-Tue Dec 04 2018 22:03:07 GMT+0530 (India Standard Time)-913
